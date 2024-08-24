@@ -102,7 +102,7 @@ async def start(event):
         await event.respond(
             f"Welcome, {username}!",
             buttons=[
-                [Button.url("Visit Our Website", 'https://t.me/PinterestDownloaderdlBot/PinterestDownloader')],
+                [Button.url("Visit Our Website", 'http://t.me/youtubedownloaderdlBot/YtDL')],
                 [Button.url("Contact Us", 'https://t.me/m70_vortex')]
             ]
         )
