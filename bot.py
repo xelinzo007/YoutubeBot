@@ -25,7 +25,7 @@ API_ID = os.getenv('API_ID')
 API_HASH = os.getenv('API_HASH')
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 ADMIN_ID = int(os.getenv('ADMIN_ID'))
-PORT = int(os.getenv('PORT', 5000))  # Default port is 5000
+PORT = int(os.getenv('PORT', 6000))  # Default port is 5000
 
 # Create the client and connect
 bot = TelegramClient('bot_pinterest', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
